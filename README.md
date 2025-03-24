@@ -26,7 +26,7 @@ All projects will require the following:
 ## Phase 0: Force Selection, Analysis & Plan
 ---------- 
 
-#### Custom Force: Magnetic (maybe), Friction (maybe)
+#### Custom Force: Magnetic 
 
 ### Forumla
 What is the formula for your force? Including descriptions/definitions for the symbols. (You may include a picture of the formula if it is not easily typed.)
@@ -35,19 +35,19 @@ YOUR ANSWER HERE
 
 ### Custom Force
 - What information that is already present in the `Orb` or `OrbNode` classes does this force use?
-  - YOUR ANSWER HERE
+  - velocity,center
 
 - Does this force require any new constants, if so what are they and what values will you try initially?
-  - YOUR ANSWER HERE
+  - charge
 
 - Does this force require any new information to be added to the `Orb` class? If so, what is it and what data type will you use?
-  - YOUR ANSWER HERE
+  - no (?)
 
 - Does this force interact with other `Orbs`, or is it applied based on the environment?
-  - YOUR ANSWER HERE
+  - yes - direct interaction between orbs, not environment
 
 - In order to calculate this force, do you need to perform extra intermediary calculations? If so, what?
-  - YOUR ANSWER HERE
+  - probably not
 
 --- 
 
