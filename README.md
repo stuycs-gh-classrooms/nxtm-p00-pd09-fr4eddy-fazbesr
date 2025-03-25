@@ -31,23 +31,36 @@ All projects will require the following:
 ### Forumla
 What is the formula for your force? Including descriptions/definitions for the symbols. (You may include a picture of the formula if it is not easily typed.)
 
-YOUR ANSWER HERE
+The force between two magnetic charges follows Coumb's law for magnetism :
+F = (k * |q1 + q2|)/r^2
+
+- F = magnitude of magnetic force
+- k is proportionality constant (depends on medium)
+- q1,q2 are 'magnetic charges'
+- r is distance betwen two orbs
 
 ### Custom Force
 - What information that is already present in the `Orb` or `OrbNode` classes does this force use?
-  - velocity,center
+  - Position (center) -> to determine distance between orbs
+  - Velocity -> if we want to model the effect of force over time
 
 - Does this force require any new constants, if so what are they and what values will you try initially?
-  - charge
+ yes!
+  - k -> magntic force constant (e.g an arbitrary scaling factor)
+  - charge -> a new property for each orb to define its magnetic polarity and strength
 
 - Does this force require any new information to be added to the `Orb` class? If so, what is it and what data type will you use?
-  - no (?)
+ yes, we should add a charge variable
+- data type: float
+- purpose: determine whether the orb attracts or repels other orbs
 
 - Does this force interact with other `Orbs`, or is it applied based on the environment?
-  - yes - direct interaction between orbs, not environment
+It interacts directly with other orbs. 
 
 - In order to calculate this force, do you need to perform extra intermediary calculations? If so, what?
-  - probably not
+  -Yes, we need to calculate the direction of the force vector.
+    - compute the unit vector between two orbs
+    - scale it by the force magnitude
 
 --- 
 
