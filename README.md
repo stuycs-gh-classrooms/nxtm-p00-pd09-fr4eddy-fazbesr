@@ -33,7 +33,10 @@ What is the formula for your force? Including descriptions/definitions for the s
 
 F = q v B sin(theta) 
 - F is force
-- 
+- q is the charge of the orb
+- v is the velocity of the orb (vector)
+- b is the magnetic field vector (to implement)
+- theta is the angle between the 2 vectors
 
 
 ### Custom Force
