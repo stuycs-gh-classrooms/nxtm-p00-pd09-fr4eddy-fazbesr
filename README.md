@@ -31,7 +31,7 @@ All projects will require the following:
 ### Forumla
 What is the formula for your force? Including descriptions/definitions for the symbols. (You may include a picture of the formula if it is not easily typed.)
 
-The force between two magnetic charges follows Coumb's law for magnetism :
+The force between two magnetic charges follows Columb's law for magnetism :
 F = (k * |q1 + q2|)/r^2
 
 - F = magnitude of magnetic force
