@@ -1,4 +1,4 @@
-class FixedOrb extends Orb {
+ orbclass FixedOrb extends Orb {
 
   FixedOrb(float x, float y, float s, float m) {
     super(x, y, s, m);
@@ -11,7 +11,7 @@ class FixedOrb extends Orb {
   }
 
   void move(boolean bounce) {
-    //do nothing
+    //do nothing - fixed orb doesn't move
   }
 
 }//fixedOrb
